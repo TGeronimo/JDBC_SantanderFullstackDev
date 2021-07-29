@@ -2,6 +2,14 @@
 https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/
 ___
 
+Para acessar o banco de dados do mysql usamos o comando mysql
+seguido do usuário, nome do banco e senha. No exemplo, o usuário
+é "*root*", o banco é "*digital_innovation_one*" e a senha é 
+solicitada com "*-p*". Exemplo: 
+`mysql -u 'root' digital_innovation_one -p`.
+
+<br>
+___
 ### Exercício sobre conexão com o BD
 1) Criar outro usuário do banco de dados e se conectar 
 através da API JDBC.
