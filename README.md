@@ -35,6 +35,26 @@ GRANT ALL
 ```
 
 ___
+## Aula 3: Consultas com JBDC
+**Interfaces**:
+1. Statement -> executar SQL comuns
+2. PreparedStatement -> executar SQL parametrizável (preferível)
+3. CallableStatement -> executar stored procedures
+
+**Métodos**:
+1. execute
+2. executeQuery
+3. executeUpdate
+
+**_ResultSet_** é um objeto do Java que contém os dados da consulta 
+e **getInt()**, **getFloat()** e **getString()** são os métodos de busca e **next()** é
+o método utilizado para percorrer os campos do ResultSet.
+
+Uma prática comum é a criação de uma classe para acessar determinada
+tabela nomeando esta classe com o padrão "TabelaDAO.java", onde Tabela é
+o nome da tabela a ser acessada e DAO é uma sigla para _Data Access Object_,
+que tem como métodos o famoso **CRUD** (Create, Read, Update, Delete).
+___
 ### Exercício sobre conexão com o BD
 1) Criar outro usuário do banco de dados e se conectar 
 através da API JDBC.
