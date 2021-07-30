@@ -11,7 +11,7 @@ public class ConnectionJDBC {
         String dataBaseAddress = "localhost";
         String dataBaseName = "digital_innovation_one";
         String user = "root";
-        String password = "math!hack0";
+        String password = "123";
 
 //        Construção da string de conexão
         StringBuilder sd = new StringBuilder("jdbc:")
