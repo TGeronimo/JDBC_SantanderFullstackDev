@@ -63,3 +63,9 @@ interface Connection através da IDE ou documentação.
 3) Configurar outro banco de dados (ex: PostgreSQL)
 e tentar se conectar usando a API JDBC.
    *Já configurei o driver do PostgreSQL no build.gradle.*
+
+### Exercícios de Query
+1. Crie uma tabela no BD chamada **curso** que terá como colunas: _id_, _nome_, _duracao_horas_. (No BD, a nomenclatura utilizada é snake_case)
+2. Crie um classe em Java chamada **curso** que terá os mesmos atributos que a tabela criada no BD. (duracao_horas em camelCase)
+3. Crie **CursoDAO** que será responsável por conectar ao BD para realizar as operações CRUD (Create, Read, Update, Delete).
+4. Testar os métodos do **cursoDAO** em uma classe que tenha o método _main_.
