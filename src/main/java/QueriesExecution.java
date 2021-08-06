@@ -7,7 +7,7 @@ public class QueriesExecution {
 //        ============= CONSULTA =====================
         List<Aluno> alunos = alunoDAO.list();
 
-//        alunos.stream().forEach(System.out::println);
+        alunos.stream().forEach(System.out::println);
 
 //        ============= CONSULTA COM FILTRO =====================
 //        Aluno alunoParaConsulta = alunoDAO.getById(3);
@@ -32,14 +32,14 @@ public class QueriesExecution {
 //        alunoDAO.list().stream().forEach(System.out::println); // verificar se deletou
 
 
-        //        ============== DELETE =====================
+        //        ============== UPDATE =====================
 
-        Aluno alunoAtualizar = alunoDAO.getById(5);
-        alunoAtualizar.setNome("Tales");
-        alunoAtualizar.setIdade(13);
-
-        alunoDAO.update(alunoAtualizar);
-        alunoDAO.list().stream().forEach(System.out::println); // verificar se atualizou
+//        Aluno alunoAtualizar = alunoDAO.getById(5);
+//        alunoAtualizar.setNome("Tales");
+//        alunoAtualizar.setIdade(13);
+//
+//        alunoDAO.update(alunoAtualizar);
+//        alunoDAO.list().stream().forEach(System.out::println); // verificar se atualizou
 
     }
 }

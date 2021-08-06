@@ -71,8 +71,6 @@ public class AlunoDAO { // DAO stands for Data Access Object
         return aluno;
 }
 
-
-
 //    2. Create
     public void create(Aluno aluno) {
         try (Connection connection = ConnectionFactory.getConnection()) {
